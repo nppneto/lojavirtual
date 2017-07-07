@@ -17,6 +17,7 @@ namespace Quiron.LojaVirtual.Web
                 name: "Default",
                 // controller = "Produtos" irá fazer com que a página inicial
                 // seja a do controller fornecido.
+                // action = "Index" é o action result a ser exibido
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Produtos", action = "Index", id = UrlParameter.Optional }
             );
