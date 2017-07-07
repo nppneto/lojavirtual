@@ -15,8 +15,10 @@ namespace Quiron.LojaVirtual.Web
 
             routes.MapRoute(
                 name: "Default",
+                // controller = "Produtos" irá fazer com que a página inicial
+                // seja a do controller fornecido.
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Produtos", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
