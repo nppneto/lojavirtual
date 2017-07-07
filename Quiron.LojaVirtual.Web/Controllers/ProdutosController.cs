@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Quiron.LojaVirtual.Dominio.Repositorio;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using Quiron.LojaVirtual.Dominio.Repositorio;
 
 namespace Quiron.LojaVirtual.Web.Controllers
 {
