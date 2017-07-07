@@ -11,7 +11,7 @@ namespace Quiron.LojaVirtual.Dominio.Repositorio
     {
         private readonly EfDbContext _context = new EfDbContext();
 
-        // retorna produto
+        // retorna todos os produto da tabela
         public IEnumerable<Produto> Produtos
         {
             get { return _context.Produtos; }
