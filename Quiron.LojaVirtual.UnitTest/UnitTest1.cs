@@ -44,6 +44,8 @@ namespace Quiron.LojaVirtual.UnitTest
         [TestMethod]
         public void TestarSeAPaginacaoEstaSendoGeradaCorretamente()
         {
+            //Pesquisar sobre AAA
+
             //Arrange
             HtmlHelper htmlHelper = null;
             Paginacao paginacao = new Paginacao
